@@ -9,6 +9,7 @@ module.exports = {
     extend: {},
     fontFamily: {
       newFont: ['Playpen Sans', 'cursive'],
+      secondFont: ['Roboto', 'sans-serif']
     }
   },
   plugins: [],
