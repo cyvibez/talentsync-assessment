@@ -8,8 +8,7 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily: {
-      newFont: ['Playpen Sans', 'cursive'],
-      secondFont: ['Roboto', 'sans-serif']
+      newFont: ['Inter', 'sans-serif']
     }
   },
   plugins: [],
