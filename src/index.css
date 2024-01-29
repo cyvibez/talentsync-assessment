@@ -11,5 +11,5 @@
 } */
 
  * {
-    @apply font-newFont
+    @apply font-newFont p-0 m-0
 }

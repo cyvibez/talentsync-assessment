@@ -13,7 +13,7 @@ const Navbar = () => {
 
 
     return (
-        <div className="w-full ">
+        <div className="w-full mt-6">
             <div className="bg-[#F2F4F7] max-w-6xl px-10 flex py-3 items-center mx-auto justify-between rounded-[30px] border border-[#D0D5DD]">
                 <a href="/"><img src= { Logo } alt="Clearlink logo" className="h-5"/></a>        
 
