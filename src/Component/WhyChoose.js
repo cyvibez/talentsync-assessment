@@ -1,4 +1,7 @@
 import { LuVideo } from "react-icons/lu";
+import { RiVoiceprintFill } from "react-icons/ri";
+import { LiaUnlockAltSolid } from "react-icons/lia";
+import { PiNotepad } from "react-icons/pi";
 
 import image1 from '../../src/Images/whyChooseImg.png';
 import arrow from '../../src/Images/arrow.png';
@@ -32,7 +35,7 @@ const WhyChoose = () => {
                             </div>
                             <div className="w-[600px] flex flex-col" >
                                 <div className=" bg-[#F9FAFB] border rounded-[50%] border-[#EAECF0] w-[40px] h-[40px] flex justify-center items-center"> 
-                                    <span className="text-[#175CD3] "><LuVideo /></span>
+                                    <span className="text-[#175CD3] "><RiVoiceprintFill /></span>
                                 </div>
                                 <h4 className="my-2 text-[#101828] text-[16px] font-bold">Noise-canceling audio</h4>
                                 <p className="text-[#475467] text-[14px]">Say goodbye to distractions with our advanced audio tech for crisp, interruption-free conversations.</p>
@@ -41,14 +44,14 @@ const WhyChoose = () => {
                         <div className="flex space-x-10">
                             <div className="w-[600px] flex flex-col" >
                                 <div className=" bg-[#F9FAFB] border rounded-[50%] border-[#EAECF0] w-[40px] h-[40px] flex justify-center items-center"> 
-                                    <span className="text-[#175CD3] "><LuVideo /></span>
+                                    <span className="text-[#175CD3] "><PiNotepad /></span>
                                 </div>
                                 <h4 className="my-2 text-[#101828] text-[16px] font-bold">Scheduling made easy</h4>
                                 <p  className="text-[#475467] text-[14px]">Streamline your agenda with ClearLink's intuitive scheduling. Set up meetings, send invitations, and receive reminders in one place.</p>
                             </div>
                             <div className="w-[600px] flex flex-col" >
                                 <div className=" bg-[#F9FAFB] border rounded-[50%] border-[#EAECF0] w-[40px] h-[40px] flex justify-center items-center"> 
-                                    <span className="text-[#175CD3] "><LuVideo /></span>
+                                    <span className="text-[#175CD3] "><LiaUnlockAltSolid /></span>
                                 </div>
                                 <h4 className="my-2 text-[#101828] text-[16px] font-bold">Bank-grade security</h4>
                                 <p  className="text-[#475467] text-[14px]"> Your privacy is our priority with bank-grade security protocols safeguarding your meetings and data from unwanted intruders.</p>
@@ -82,10 +85,10 @@ const WhyChoose = () => {
                                 </div> 
                             </div>
                             <div className="flex space-x-3">
-                                <div className="bg-white border border-[#D1E9FF] rounded-[50%] p-2 ">
+                                <div className="bg-white border border-[#D1E9FF] rounded-[50%] p-3 ">
                                     <span className="text-[#175CD3] text-[10px]"><FaArrowLeftLong /></span>
                                 </div>
-                                <div className="bg-white border border-[#D1E9FF] rounded-[50%] p-2 ">
+                                <div className="bg-white border border-[#D1E9FF] rounded-[50%] p-3 ">
                                     <span className="text-[#175CD3] text-[10px]"><FaArrowRightLong /></span>
                                 </div>
                             </div>

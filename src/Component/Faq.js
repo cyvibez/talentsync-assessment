@@ -31,7 +31,7 @@ const FAQ = () => {
                     <div className={isOpened1 ? `border w-[600px] p-4 bg-[#F9FAFB] rounded-lg border-[#EAECF0] space-y-3` : ` border-b-[1px] w-[600px] px-4 py-8  border-[#EAECF0] h-[50px]`}>
                         <div className="flex items-center justify-between">
                             <p className="text-[#101828] text-[15px] font-semibold">How many participants can join a ClearLink video conference?</p>
-                            <span onClick={() => setIsOpened1(!isOpened1)}>{isOpened1 ? <FiMinusCircle /> : <FiPlusCircle />}</span>
+                            <span onClick={() => setIsOpened1(!isOpened1)} className="text-[#98A2B3]">{isOpened1 ? <FiMinusCircle /> : <FiPlusCircle />}</span>
                         </div>
                         
                         {isOpened1 && 
@@ -44,7 +44,7 @@ const FAQ = () => {
                     <div className={isOpened2 ? `border w-[600px] p-4 bg-[#F9FAFB] rounded-lg border-[#EAECF0] space-y-3` : ` border-b-[1px] w-[600px] px-4 py-8  border-[#EAECF0] h-[50px]`}>
                         <div className="flex items-center justify-between">
                             <p className="text-[#101828] text-[15px] font-semibold">Can I use ClearLink on multiple devices?</p>
-                            <span onClick={() => setIsOpened2(!isOpened2)}>{isOpened2 ? <FiMinusCircle /> : <FiPlusCircle />}</span>
+                            <span onClick={() => setIsOpened2(!isOpened2)} className="text-[#98A2B3]">{isOpened2 ? <FiMinusCircle /> : <FiPlusCircle />}</span>
                         </div>
                         
                         {isOpened2 && 
@@ -57,7 +57,7 @@ const FAQ = () => {
                     <div className={isOpened3 ? `border w-[600px] p-4 bg-[#F9FAFB] rounded-lg border-[#EAECF0] space-y-3` : ` border-b-[1px] w-[600px] px-4 py-8  border-[#EAECF0] h-[50px]`}>
                         <div className="flex items-center justify-between">
                             <p className="text-[#101828] text-[15px] font-semibold">Is ClearLink compatible with other video conferencing platforms?</p>
-                            <span onClick={() => setIsOpened3(!isOpened3)}>{isOpened3 ? <FiMinusCircle /> : <FiPlusCircle />}</span>
+                            <span onClick={() => setIsOpened3(!isOpened3)} className="text-[#98A2B3]">{isOpened3 ? <FiMinusCircle /> : <FiPlusCircle />}</span>
                         </div>
                         
                         {isOpened3 && 
@@ -70,7 +70,7 @@ const FAQ = () => {
                     <div className={isOpened4 ? `border w-[600px] p-4 bg-[#F9FAFB] rounded-lg border-[#EAECF0] space-y-3` : ` border-b-[1px] w-[600px] px-4 py-8  border-[#EAECF0] h-[50px]`}>
                         <div className="flex items-center justify-between">
                             <p className="text-[#101828] text-[15px] font-semibold">How does ClearLink ensure the security of my video conferences?</p>
-                            <span onClick={() => setIsOpened4(!isOpened4)}>{isOpened4 ? <FiMinusCircle /> : <FiPlusCircle />}</span>
+                            <span onClick={() => setIsOpened4(!isOpened4)} className="text-[#98A2B3]">{isOpened4 ? <FiMinusCircle /> : <FiPlusCircle />}</span>
                         </div>
                         
                         {isOpened4 && 
@@ -83,7 +83,7 @@ const FAQ = () => {
                     <div className={isOpened5 ? `border w-[600px] p-4 bg-[#F9FAFB] rounded-lg border-[#EAECF0] space-y-3` : ` border-b-[1px] w-[600px] px-4 py-8  border-[#EAECF0] h-[50px]`}>
                         <div className="flex items-center justify-between">
                             <p className="text-[#101828] text-[15px] font-semibold">Do I need to download any software to use ClearLink?</p>
-                            <span onClick={() => setIsOpened5(!isOpened5)}>{isOpened5 ? <FiMinusCircle /> : <FiPlusCircle />}</span>
+                            <span onClick={() => setIsOpened5(!isOpened5)} className="text-[#98A2B3]">{isOpened5 ? <FiMinusCircle /> : <FiPlusCircle />}</span>
                         </div>
                         
                         {isOpened5 && 
@@ -96,7 +96,7 @@ const FAQ = () => {
                     <div className={isOpened6 ? `border w-[600px] p-4 bg-[#F9FAFB] rounded-lg border-[#EAECF0] space-y-3` : ` border-b-[1px] w-[600px] px-4 py-8  border-[#EAECF0] h-[50px]`}>
                         <div className="flex items-center justify-between">
                             <p className="text-[#101828] text-[15px] font-semibold">What kind of customer support does ClearLink provide?</p>
-                            <span onClick={() => setIsOpened6(!isOpened6)}>{isOpened6 ? <FiMinusCircle /> : <FiPlusCircle />}</span>
+                            <span onClick={() => setIsOpened6(!isOpened6)} className="text-[#98A2B3]">{isOpened6 ? <FiMinusCircle /> : <FiPlusCircle />}</span>
                         </div>
                         
                         {isOpened6 && 
