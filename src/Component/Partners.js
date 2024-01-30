@@ -8,7 +8,7 @@ import marvel from '.././Images/Marvel.png'
 const Partners = () => {
     return (
         <div className="w-full">
-            <div className="max-w-7xl flex flex-col mx-auto px-20 space-y-10 my-10">
+            <div className="max-w-7xl flex flex-col mx-auto px-20 space-y-10 my-20">
                 <p className="text-center text-[#475467] text-[14px] font-semibold">Join 1,500+ companies already video conferencing the ClearLink way</p>
 
                 <div className='flex justify-around items-center'>
