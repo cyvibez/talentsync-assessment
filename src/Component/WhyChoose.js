@@ -15,8 +15,8 @@ const WhyChoose = () => {
             <div className="max-w-7xl flex flex-col mx-auto px-20 my-20 relative">
 
                 <div className="my-10">
-                    <p className="text-[#175CD3] text-[12px] font-black">The ClearLink Advantage</p>
-                    <h1 className="text-[#1D2939] font-black text-[30px] my-2">Why choose ClearLink?</h1>
+                    <p className="text-[#175CD3] text-[12px] font-semibold">The ClearLink Advantage</p>
+                    <h1 className="text-[#1D2939] font-bold text-[30px] my-2">Why choose ClearLink?</h1>
                     <p className="text-[#667085] text-[16px]">In a world where connection is everything, ClearLink takes the lead. Our <br />
                     cutting-edge video conferencing app offers:</p>
                 </div>
@@ -67,9 +67,9 @@ const WhyChoose = () => {
 
             </div>
 
-            <div className="max-w-7xl mx-auto px-20 my-20 border">
-                <di className='flex justify-between items-center border my-20'>
-                    <div className="w-[480px] border mx-5 space-y-6 ">
+            <div className="max-w-7xl mx-auto px-20 py-10 bg-[#F9FAFB] ">
+                <di className='flex justify-between items-center my-20'>
+                    <div className="w-[480px] mx-5 space-y-6 ">
                         <img src={shopify} alt="shopify logo" width={100}/>
                         <img src={stars} alt="star sign" width={70}/>
                         <h3 className="text-[#101828] text-[30px] font-medium">ClearLink has upgraded our remote meetings. High-quality video, screen sharing, and top-notch security make it essential for our team.</h3>
